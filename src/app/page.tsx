@@ -19,74 +19,74 @@ export const metadata: Metadata = {
 const galleryPhotos = [
   {
     src: "https://static.wixstatic.com/media/756893_e9608a21d8634a73b905d39d82e0e95e~mv2.jpg",
-    alt: "Modern kitchen island with stone countertop — Superior Stone Boise",
+    alt: "Dark modern kitchen with white stone island — Superior Stone Boise",
     label: "Countertop · Kitchen",
     span: "md:col-span-2",
   },
   {
     src: "https://static.wixstatic.com/media/756893_12c6f77a52304e9f854fdb6e1011ddcd~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
-    label: "Countertop · Kitchen",
+    alt: "Bright kitchen with natural granite perimeter counters — Superior Stone Boise",
+    label: "Granite · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_76ac0e54c80348f7a3121c6c56a000ef~mv2.jpg",
-    alt: "Quartzite kitchen countertop with gold fixtures — Superior Stone Boise",
+    alt: "Quartzite kitchen countertop with warm wood cabinets and gold fixtures — Superior Stone Boise",
     label: "Quartzite · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_395e8c1f24484a30bd43536a71034d2b~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
-    label: "Countertop · Kitchen",
+    alt: "Open kitchen with large quartz island and bar seating — Superior Stone Boise",
+    label: "Quartz · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_4fd30d830697419f8277ef88c3680116~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
+    alt: "Contemporary kitchen with stone countertop and stainless appliances — Superior Stone Boise",
     label: "Countertop · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_a982d8ec313a4b2faf7e54e6d13929c8~mv2.jpg",
-    alt: "Marble bathroom vanity and shower — Superior Stone Boise",
+    alt: "Full marble master bathroom with floating vanity and shower surround — Superior Stone Boise",
     label: "Marble · Bathroom",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_843a1064dfbb478ba2226990cddedf27~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
+    alt: "White kitchen with stone island and open shelving — Superior Stone Boise",
     label: "Countertop · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_927ddbac2b6e4620a9fbdd1aeac4114f~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
-    label: "Countertop · Kitchen",
+    alt: "Marble kitchen island with dramatic white veining — Superior Stone Boise",
+    label: "Marble · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_acbbad4c793f431bb25a407a2e32a857~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
-    label: "Countertop · Kitchen",
+    alt: "Kitchen with dark stone countertops and custom cabinetry — Superior Stone Boise",
+    label: "Granite · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_b96515da864f457a8568b23fbf70feda~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
-    label: "Countertop · Kitchen",
+    alt: "Light-toned quartz countertop with undermount sink — Superior Stone Boise",
+    label: "Quartz · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_d2c8a824825644329724f5fa6ad21a7d~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
+    alt: "Kitchen remodel with stone island and pendant lighting — Superior Stone Boise",
     label: "Countertop · Kitchen",
     span: "",
   },
   {
     src: "https://static.wixstatic.com/media/756893_ff02e7c1a37348a8a2bc29ef71b659fd~mv2.jpg",
-    alt: "Stone countertop installation — Superior Stone Boise",
-    label: "Countertop · Kitchen",
+    alt: "Porcelain slab countertop in modern white kitchen — Superior Stone Boise",
+    label: "Porcelain · Kitchen",
     span: "",
   },
 ];
@@ -434,7 +434,10 @@ export default function HomePage() {
             Get My Free Quote
           </Link>
           <p className="font-body text-brand-charcoal/40 text-sm mt-6 tracking-wide">
-            Or call us directly: (208) 447-9593
+            Or call us directly:{" "}
+            <a href="tel:+12084479593" className="hover:text-brand-gold transition-colors duration-200">
+              (208) 447-9593
+            </a>
           </p>
         </div>
       </section>
